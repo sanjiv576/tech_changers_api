@@ -83,7 +83,8 @@ const requestWater = (req, res, next) => {
       const request = {
         user: req.user.id,
         price: req.body.price,
-        contactNumber: req.user.contactNumber
+        contactNumber: req.user.contactNumber,
+        status: req.body.status,
       };
       user.waterRequest.push(request);
       user

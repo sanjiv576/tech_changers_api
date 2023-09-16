@@ -21,7 +21,7 @@ const requestSchema = new mongoose.Schema({
   },
 
   accept: {
-    type: Boolean,
+    type: String,
     default: false,
   },
 
